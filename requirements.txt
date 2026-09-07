@@ -1,0 +1,16 @@
+# Dipendenze principali per AxLSTM
+# =================================
+
+# Calcolo numerico e manipolazione dati
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+
+# Preprocessing (MinMaxScaler, StandardScaler) e metriche
+scikit-learn>=1.3.0
+
+# Visualizzazione grafici
+matplotlib>=3.7.0
+
+# Deep Learning: Keras 3 (standalone) e TensorFlow (backend predefinito)
+keras>=3.0.0
+tensorflow>=2.16.0
